@@ -1,0 +1,16 @@
+#kris {
+    position: absolute;
+    align-items: center;
+    left: 100px;
+    top: 100px;
+    width: 100px;
+    height: auto;
+}
+
+#background{
+    background-image: url(image.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
