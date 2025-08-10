@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Palindrome Checker with Loop</title>
+  <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+
+  <header>
+      <h1>Palindrome Checker</h1>
+    <nav class="navbar">
+          <a href="Index_Nav.html">Home</a>
+        <a href="Boards_Nav.html">Boards</a>
+        <a href="Actions.html">DVD</a>
+        <a href="Game.html">Blackjack</a>
+        <a href="Untitled-1.html">Table</a>
+        <a href="Palindrome.html">Palindrome (You are here)</a>
+      </nav>
+    </header>
+
+  
+<p>
+<h2>Palindrome Checker</h2>
+
+<form onsubmit="return checkPalindromeOnce();">
+  <input type="text" id="userInput" placeholder="Enter text here">
+  <button type="submit">Check Once</button>
+</form>
+
+<button onclick="startLoop()">Start Loop</button>
+<button onclick="stopLoop()">Stop Loop</button>
+
+<p id="result">Waiting for input...</p>
+
+<script src="Palindrome.js"></script>
+</p>
+</body>
+</html>
