@@ -1,0 +1,19 @@
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 10px;
+}
+
+th {
+border: 1px solid black;
+    text-align: left;
+    padding-left: 10px;
+}
+
